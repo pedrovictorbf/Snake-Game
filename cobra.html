@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Snake Game</title>    
+</head>
+<style>
+    body{
+        background: url('./img/fundoJogo.png');
+        background-size: 100vw 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<h1 align="center" style="color:white">Snake Game</h1>
+<div align="center">
+<canvas id="tela" width="300" height="300"></canvas>
+<script src="cobra.js"></script>
+</div>
+<div align="center">
+<button id = "aumentarVelocidade" type="button" onclick="aumentarVelocidade()"> +Velocidade </button>
+<button id ="retry" type="button" onclick="location.reload(true)">Tentar novamente!</button>
+<button id="changeSkin" type="button" onclick="iniciar2()">Mudar de Skin</button>
+</div>
+</body>
+</html>
