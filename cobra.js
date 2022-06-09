@@ -205,7 +205,7 @@ function fimDeJogo() {
     ctx.textBaseline = "middle"; 
     ctx.textAlign = "center"; 
     ctx.font = "normal bold 18px serif";
-    ctx.fillText("Fim de Jogo! " + "Sua pontuação: " + (pontos -1 ), C_LARGURA/2, C_ALTURA/2);
+    ctx.fillText("Fim de Jogo! " + " Sua pontuação: " + (pontos -1 ), C_LARGURA/2, C_ALTURA/2);
         
   }  
 
@@ -252,13 +252,12 @@ function aumentarVelocidade() {
 function iniciar2() {
     tela = document.getElementById("tela");
     ctx = tela.getContext("2d");
-	ctx.fillStyle = "black";
+	ctx.fillStyle = "violet";
 	ctx.fillRect(0, 0, C_LARGURA, C_ALTURA);
 
     carregarImagens2();
     criarCobra();
     localizarMaca();
-  
 }
 //mudar skin
 function carregarImagens2 () {

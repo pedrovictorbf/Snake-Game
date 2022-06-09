@@ -4,25 +4,54 @@
 <head>
 <meta charset="UTF-8">
 <title>Snake Game</title>    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap" rel="stylesheet">
 </head>
+
 <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
     body{
+        align-content: center;
         background: url('./img/fundoJogo.png');
-        background-size: 100vw 100vh;
+        background-size: 100vw 100vh; 
+        font-family: 'Blaka Hollow', cursive;
+        
+        
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
+    #header{
+        margin: 2rem;
+    }
+    h1{
+        letter-spacing: 0.5rem;
+    }
+
 </style>
+
 <body>
-<h1 align="center" style="color:white">Snake Game</h1>
-<div align="center">
-<canvas id="tela" width="300" height="300"></canvas>
-<script src="cobra.js"></script>
-</div>
-<div align="center">
-<button id = "aumentarVelocidade" type="button" onclick="aumentarVelocidade()"> +Velocidade </button>
-<button id ="retry" type="button" onclick="location.reload(true)">Tentar novamente!</button>
-<button id="changeSkin" type="button" onclick="iniciar2()">Mudar de Skin</button>
-</div>
+    <div id="main">
+        <div id="header">
+            <h1 align="center" style="color:white">Snake Game</h1>
+        </div>
+        <div align="center">
+            <canvas align="center" id="tela" width="300" height="300"></canvas>
+            <script src="cobra.js"></script>
+        </div>
+        <div align="center">
+            <button id = "aumentarVelocidade" type="button" onclick="aumentarVelocidade()"> +Velocidade </button>
+            <button id ="retry" type="button" onclick="location.reload(true)">Tentar novamente!</button>
+            <button id="changeSkin" type="button" onclick="iniciar2()">Mudar de Skin</button>
+        </div>
+    </div>
 </body>
 </html>
