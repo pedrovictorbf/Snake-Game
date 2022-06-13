@@ -252,7 +252,7 @@ function aumentarVelocidade() {
 function iniciar2() {
     tela = document.getElementById("tela");
     ctx = tela.getContext("2d");
-	ctx.fillStyle = "violet";
+	ctx.fillStyle = "black";
 	ctx.fillRect(0, 0, C_LARGURA, C_ALTURA);
 
     carregarImagens2();
