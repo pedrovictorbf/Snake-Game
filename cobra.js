@@ -1,11 +1,7 @@
-// Jogo da Cobra (Snake Game)
-// Autor: Jan Bodnar
-// Adaptado por: Gilson Pereira
 // Código fonte original: http://zetcode.com/javascript/snake/ 
-//Implementações por Pedro Fernandes e Marlon Sangiorgi 
-//Implementações : !Efeito sonoro ao pegar o ponto, !música de Fundo,
-// !Pontuação, !Botão para aumentar velocidade, ! botão para mudar de Skin, !Aumento de velocidade baseado na pontuação.
-//! - testado e funcionando 
+//Implementações por Pedro Fernandes
+//Implementações : Efeito sonoro ao pegar o ponto, música de Fundo,
+// Pontuação, Botão para aumentar velocidade,  botão para mudar de Skin, Aumento de velocidade baseado na pontuação.
 
 // Declaração de variáveis e constantes
 
